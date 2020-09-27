@@ -7,11 +7,11 @@ from email.mime.text import MIMEText
 def send_email(RECIPIENT, height, av_height, count):
     # Replace sender@example.com with your "From" address. 
     # This address must be verified.
-    SENDER = 'admin@devopsguy.co.in'  
-    SENDERNAME = 'Shubham'
-    USERNAME_SMTP = "AKIAYYP7GN5X6HPNYP6U"
-    PASSWORD_SMTP = "BL3Zm3YyW2TeraHnrYC46N48ZHVNR2CuFyXMcDO3qNES"
-    HOST = "email-smtp.us-east-1.amazonaws.com"
+    SENDER = 'xxxxxx'  
+    SENDERNAME = 'xxxxx'
+    USERNAME_SMTP = "xxxxxxxx"
+    PASSWORD_SMTP = "xxxxxxxx"
+    HOST = "xxxxxxxx"
     PORT = 587
     SUBJECT = 'Height data'
 
