@@ -33,7 +33,7 @@ def success():
             db.session.commit()
             avg_height=round(db.session.query(func.avg(Data.height_)).scalar(),1)
             count=db.session.query(Data.height_).count()
-            send_email(email, height, avg_height, count)
+            send_email(email, height, avg_height, count )
             return render_template("success.html")
     return render_template('index.html', text=" Mail ID already used !")
 
