@@ -7,6 +7,7 @@ This application consists of following components
 1. Input form for data collection
 2. Email Sending on AWS SES
 3. Can be easily hosted on heroku
+4. Database for storing and importing data
 
 Steps to run this project on heroku
 
